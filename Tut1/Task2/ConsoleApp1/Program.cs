@@ -14,4 +14,15 @@ static void avgNumbers(int[] calc) {
     Console.WriteLine(sum / calc.Length);
 }
 
+static void maxNumbers(int[] calc) {
+    int max = 0;
+    for (int i = 0; i < calc.Length; i++) {
+        if (calc[i] > max) { 
+            max = calc[i];
+        }
+    }
+    Console.WriteLine(max);
+}
+
 avgNumbers(arr);
+maxNumbers(arr);
