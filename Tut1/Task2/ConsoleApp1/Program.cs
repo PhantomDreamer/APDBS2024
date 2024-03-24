@@ -7,11 +7,11 @@ Console.WriteLine("Mod3");
 int[] arr = { 1, 6, 7, 8, 2, 3, 5, 7, 2, 8 };
 
 static void avgNumbers(int[] calc) {
-    double summy = 0;
+    double mus = 0;
     for (int i = 0; i < calc.Length; i++) {
-        summy += calc[i];
+        mus += calc[i];
     }
-    Console.WriteLine(summy / calc.Length);
+    Console.WriteLine(mus / calc.Length);
 }
 
 static void maxNumbers(int[] calc) {
