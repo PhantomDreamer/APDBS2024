@@ -1,0 +1,6 @@
+﻿@Task4ControllerAddress = http://localhost:5275
+
+GET {{Task4ControllerAddress}}/pets/
+Accept: application/json
+
+###
